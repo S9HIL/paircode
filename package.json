@@ -1,0 +1,21 @@
+{
+  "name": "wp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.6",
+    "archiver": "^7.0.1",
+    "express": "^5.1.0",
+    "pino": "^10.1.0",
+    "uuid": "^13.0.0"
+  }
+}
